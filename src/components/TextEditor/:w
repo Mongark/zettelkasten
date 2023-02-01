@@ -12,8 +12,6 @@ const Editor = styled.div`
 
   padding: 12px;
 
-  font-family: monospace;
-
   background: #282a36;
 `;
 
@@ -39,23 +37,18 @@ const TextArea = styled.textarea`
 const HeaderSection = styled.div`
   display: flex;
   align-items: center;
+  justify-content: right;
 
   flex-direction: row;
-
-  padding-top: 5px;
-  padding-bottom: 5px;
 
   width: 100%;
 `;
 
 const Toolbar = styled.div`
-  display: flex;
-  justify-content: right;
   width: 100%;
 `;
 
 const Button = styled.button`
-  padding: 5px;
 `;
 
 export default function TextEditor() {
