@@ -11,9 +11,13 @@ const Editor = styled.div`
   background: #282a36;
 `;
 
-const EditorInput = styled.textarea`
+const TextArea = styled.textarea`
   width: 90%;
   height: 90%;
+
+  border-radius: 4px;
+
+  resize: none;
 
   background: white;
 `;
@@ -22,7 +26,7 @@ export default function TextEditor() {
   return(
     <>
       <Editor>
-        <EditorInput></EditorInput>
+        <TextArea />
       </Editor>
     </>
   );
