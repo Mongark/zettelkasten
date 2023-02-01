@@ -1,12 +1,10 @@
 import './App.css'
-import {TextEditor} from './components/styled/TextEditor/TextEditor'
+import TextEditor from './components/TextEditor/TextEditor'
 
 function App() {
   return (
     <div className="App">
-      <TextEditor>
-        Hello, world
-      </TextEditor>
+      <TextEditor />
     </div>
   )
 }
